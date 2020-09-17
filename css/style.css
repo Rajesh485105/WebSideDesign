@@ -1,0 +1,246 @@
+/*fornt inport*/
+	@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+font-family: 'Playfair Display', serif;
+}
+
+/*header section sellection css  start*/
+.header{
+width: 100%;
+display: flow-root;
+}
+.cointainer{
+	width: 1140px;
+	margin: 0 auto;
+}
+.navibar{
+	width: 100%;
+	padding: 30px 0;
+	float: left;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+}
+.manu-item{
+	width: 80%;
+	float: right;
+	text-align: right;
+	
+}
+.manu-item ul li{
+	list-style: none;
+	display: inline-block;
+}
+.manu-item ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #7c8081;
+	margin-left: 55px;
+	transition: 1sc;
+}
+.manu-item ul li a:hover{
+	color: green;
+	font-family: bold;
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+/*header section sellection css end*/
+/*Banner section css start*/
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+
+.post-contain{
+	 padding:50px;
+}
+.photodairy{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.title{
+padding: 25px 0;
+color: #626262;
+	
+}
+.paragraph{
+	color: #636162;
+}
+.comment{
+	margin-top: 20px;
+	color: #b4ad9e;
+}
+/*Banner section css end*/
+
+/*Post Gallary css Start*/
+.post-gallary{
+	width: 100%;
+	display: flow-root;
+}
+.gallary{
+	padding:50px;
+	display: flow-root;
+	
+}
+.photo-gallary{
+	width: 100%
+}
+.gallary-left{
+	width: 48%;
+	float: left;
+	margin: 0 auto;
+}
+.photo-gallary .photodairy{
+	    margin-top: 22px;
+}
+.gallary-right{
+	width: 48%;
+	float: right;
+	margin: 0 auto;
+}
+.title-1{
+	
+	color: #626262;
+}
+/*Post Gallary css End*/
+/*subcription from css start*/
+.subcription{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	text-align: center;
+	padding: 60px 0;
+}
+
+.subcription  h1{
+	padding-bottom: 40px;
+}
+
+form input{
+	width: 380px;
+	height: 35px;
+    margin: 15px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+form input:focus{
+	outline: : none;
+}
+form input::placeholder{
+	font-size: 14px
+}
+form{
+	position: relative;
+}
+form i{
+	position: absolute;
+    top: 27px;
+    right: 396px;
+}
+.gallary .button{
+	margin-top: 200px;
+}
+
+.read-more{
+text-align: center;
+
+}
+.read-more button{
+	padding:20px 50px;
+	/*background: transparent;*/
+	font-size: 18px;
+	border-radius: 3px;
+	border: none;
+	border-bottom: 1px solid #bebcbd;
+	transform: .6s;
+}
+.read-more button:hover{
+	color: green;
+	background: #bebcbd;
+	border-radius: 5px;
+	border-bottom: 1px solid green;
+	transform: scale(1.03);
+	transform: .6s;
+
+}
+
+/*subcription from css end*/
+/*Social icon css start*/
+.cocialicon{
+	width: 100%;
+	display: flow-root;
+}
+.cocialbar{
+	width: 100%;
+	float: left;
+    padding: 30px 0;
+
+}
+.cocial-manu{
+	width: 40%;
+	float: left;
+	/*text-align: center;*/
+
+} 
+
+.cocial-manu ul{
+list-style: none;
+
+}
+.cocial-manu ul li{
+list-style: none;
+display: inline-block;
+margin: 0 45px;
+font-size: 18px;
+transform: .6s;
+}
+.cocial-manu ul li:hover{
+	color: green;
+	transform: scale(1.3);
+	transform: .6s;}
+}
+.cocial-icon{
+	width: 45%;
+	float: right;
+}
+
+/*Social Icon right start*/
+
+/*Social Icon right end*/
+.cocial-icon ul{
+list-style: none;
+}
+.cocial-icon ul li {
+	display:inline-block;
+	color: black;
+	padding-right: 20px;
+	transform: .6s;
+}
+.cocial-icon ul li:hover{
+	color: green;
+	transform: scale(1.25);
+	font-style: bold
+	transform: .6s;
+}
+.cocial-icon ul a i{
+	font-size: 18px;
+	color: #7c8081;
+	padding-right: 20px;
+	transform: .6s;
+
+}
+
+.cocial-icon ul a i:hover{
+	color: green;
+	transform: scale(1.3);
+	transform: .6s;}
+/*Social icon css end*/
