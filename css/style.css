@@ -107,7 +107,7 @@ color: #626262;
 	margin: 0 auto;
 }
 .title-1{
-	
+	    margin: 20px 0px;
 	color: #626262;
 }
 /*Post Gallary css End*/
@@ -209,7 +209,7 @@ transform: .6s;
 	transform: .6s;}
 }
 .cocial-icon{
-	width: 45%;
+	width: 55%;
 	float: right;
 }
 
