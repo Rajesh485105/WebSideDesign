@@ -6,6 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 	<title>www.mourathi.com</title>
+
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
 </head>
 <body>
 	<!-- header section sellection html start -->
@@ -30,9 +33,14 @@
 	</div>
 
 	<!-- header section sellection html end -->
+	<!-- photo gellery slider start here -->
+	
+	
+	
+	<!-- photo gellery slider start here -->
 
 <!-- banner section start -->
-<div class="banner">
+	<div class="banner">
 		<div class="cointainer">
 			<img src="image/banner.png" width="100%">
 			<div class="post-contain">
@@ -47,6 +55,114 @@
 		</div>
 	</div>
 <!-- banner section end -->
+
+	<div class="slider">
+		<div class="cointainer">
+			<div>
+				<h1 class="photo-head"> PHOTO GELLARY </h1>
+			</div>
+    	<div class="slider-box">
+    		<div class="slide-shade">
+			<div class="owl-carousel owl-theme">
+			    <div class="item">
+
+						
+
+								<div class="slide-left">
+									<div class="slider-left-cointainer">
+										<p class="title-2">Best Collection</p>
+										<h1>Rajesh Sarker</h1>
+										<p class="des">We went to Shova long with full family, we have enjoyed a lot over there.</p>
+									</div>					
+				 				</div>
+							 	<div class="slide-right">
+									<img src="image/gal-3.png" width="100%">
+							 	</div>
+
+						
+					
+			    </div>
+			    <div class="item">
+
+						
+
+								<div class="slide-left">
+									<div class="slider-left-cointainer">
+										<p class="title-2">Best Collection</p>
+										<h1>Rajeshsree Moutuk</h1>
+										<p class="des">We went to Shova long with full family, we have enjoyed a lot over there.</p>
+									</div>					
+				 				</div>
+							 	<div class="slide-right">
+									<img src="image/post-5.png" width="100%">
+							 	</div>
+
+						
+					
+			    </div>
+			    <div class="item">
+
+						
+
+								<div class="slide-left">
+									<div class="slider-left-cointainer">
+										<p class="title-2">Best Collection</p>
+										<h1>Rajesh Sarker</h1>
+										<p class="des">We went to Shova long with full family, we have enjoyed a lot over there.</p>
+									</div>					
+				 				</div>
+							 	<div class="slide-right">
+									<img src="image/gal-4.png" width="100%">
+							 	</div>
+
+						
+					
+			    </div>
+			    <div class="item">
+
+						<!-- <div class="slide-shade"> -->
+
+								<div class="slide-left">
+									<div class="slider-left-cointainer">
+										<p class="title-2">Best Collection</p>
+										<h1>Rajesh Sarker</h1>
+										<p class="des">We went to Shova long with full family, we have enjoyed a lot over there.</p>
+									</div>					
+				 				</div>
+							 	<div class="slide-right">
+									<img src="image/gal-1.png" width="100%">
+							 	</div>
+
+					<!-- 	</div> -->
+					
+			    </div>
+			    <div class="item">
+
+						<!-- <div class="slide-shade"> -->
+
+								<div class="slide-left">
+									<div class="slider-left-cointainer">
+										<p class="title-2">Best Collection</p>
+										<h1>Rajesh Sarker</h1>
+										<p class="des">We went to Shova long with full family, we have enjoyed a lot over there.</p>
+									</div>					
+				 				</div>
+							 	<div class="slide-right">
+									<img src="image/gal-2.png" width="100%">
+							 	</div>
+
+						<!-- </div> -->
+					
+			    </div>
+			    
+			   </div> 
+			</div>
+		</div>
+
+			
+
+		</div>
+	</div>
 <!-- Post Gallary start -->	
 <div class="post-gallary">
 	<div class="cointainer">
@@ -109,7 +225,6 @@
  			</form>
  		</div>
  	</div>
-
  </div>
 
  <!-- subscription form section end -->
@@ -194,5 +309,33 @@
 </div>
 	
 <!-- Social Icons end -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+
+<script>
+    $(document).ready(function() {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 10,
+        nav: true,
+        loop: true,
+		autoplay:true,
+		autoplayTimeout:1500,
+		autoplayHoverPause:true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      })
+    })
+	</script>
 </body>
 </html>
