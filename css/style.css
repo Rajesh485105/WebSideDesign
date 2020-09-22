@@ -12,26 +12,24 @@ font-family: 'Playfair Display', serif;
 /*header section sellection css  start*/
 .header{
 width: 100%;
-display: flow-root;
+/*display: flow-root;*/
 }
 .cointainer{
 	width: 1140px;
 	margin: 0 auto;
 }
 .navibar{
-	width: 100%;
-	padding: 30px 0;
-	float: left;
+	display: flex;
+	    justify-content: space-between;
+    padding: 35px 0;
+
 }
 
 .logo{
-	width: 20%;
-	float: left;
+	
 }
 .manu-item{
-	width: 80%;
-	float: right;
-	text-align: right;
+
 	
 }
 .manu-item ul li{
@@ -43,20 +41,21 @@ display: flow-root;
 	text-transform: uppercase;
 	color: #7c8081;
 	margin-left: 55px;
-	transition: 1sc;
+	transition: .5c;
 }
 .manu-item ul li a:hover{
 	color: green;
+	font-weight: 600;
 	font-family: bold;
 	transform: scale(1.1);
-	transition: 1s;
+	transition: .5s;
 }
 
 /*header section sellection css end*/
 /*Banner section css start*/
 .banner{
 	width: 100%;
-	display: flow-root;
+	/*display: flow-root;*/
 }
 
 .post-contain{
@@ -67,8 +66,9 @@ display: flow-root;
 	color: #b4ad9e;
 }
 .title{
-padding: 25px 0;
-color: #626262;
+	text-transform: uppercase;
+	padding: 25px 0;
+	color: #626262;
 	
 }
 .paragraph{
@@ -83,19 +83,20 @@ color: #626262;
 /*Post Gallary css Start*/
 .post-gallary{
 	width: 100%;
-	display: flow-root;
+	/*display: flow-root;*/
 }
 .gallary{
 	padding:50px;
-	display: flow-root;
+	/*display: flow-root;*/
 	
 }
 .photo-gallary{
-	width: 100%
+	width: 100%;
+    display: flex;
 }
 .gallary-left{
 	width: 48%;
-	float: left;
+	/*float: left;*/
 	margin: 0 auto;
 }
 .photo-gallary .photodairy{
@@ -103,18 +104,18 @@ color: #626262;
 }
 .gallary-right{
 	width: 48%;
-	float: right;
+	/*float: right;*/
 	margin: 0 auto;
 }
 .title-1{
-	    margin: 20px 0px;
+	margin: 20px 0px;
 	color: #626262;
 }
 /*Post Gallary css End*/
 /*subcription from css start*/
 .subcription{
 	width: 100%;
-	display: flow-root;
+	/*display: flow-root;*/
 	background: #f0f0f0;
 	text-align: center;
 	padding: 60px 0;
@@ -177,17 +178,18 @@ text-align: center;
 /*Social icon css start*/
 .cocialicon{
 	width: 100%;
-	display: flow-root;
+	/*display: flow-root;*/
 }
 .cocialbar{
 	width: 100%;
-	float: left;
-    padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
 
 }
 .cocial-manu{
 	width: 40%;
-	float: left;
+	/*float: left;*/
 	/*text-align: center;*/
 
 } 
@@ -210,7 +212,7 @@ transform: .6s;
 }
 .cocial-icon{
 	width: 55%;
-	float: right;
+	/*float: right;*/
 }
 
 /*Social Icon right start*/
@@ -258,23 +260,31 @@ list-style: none;
 }
 .slider-box{
 	width: 92%;
-	float: left;
+	/*float: left;*/
 	 background: #ede8dd;
     padding: 46px
 }
 
 .slide-shade{
     width: 100%;
-    float: left;
+   /* float: left;*/
     box-shadow: 11px 5px 10px 10px #96938d;
     background: white;
 }
+.item{
+	display: flex;
+	justify-content: space-between;
+}
 
 .slide-left{
-	width: 50%;	
-	float: left;
+	width: 49%;	
+	/*float: left;*/
 	text-align: center;
     height: 50vh;
+    /*box-shadow: 11px 5px 10px 10px #96938d;*/
+    border-style: none;
+    border:10px solid grey;
+    background: white;
 }
 .slider-box .title-2{
 	font-size: 32px;
@@ -298,12 +308,13 @@ list-style: none;
     text-transform: uppercase;
 }
 .slide-right{
-	width: 48%;
-	float: left;
+	width: 49%;
+	border-style: none;
+	border:10px solid grey;
 
 }
 .slide-right img{
-	  padding-top: 24px;
+ 	padding-top: 24px;
 }
 .owl-theme .owl-nav{
 	display: none;
